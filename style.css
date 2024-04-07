@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background: url(https://cdn.pixabay.com/photo/2024/04/01/14/58/sierra-del-torcal-8669125_1280.jpg)
+    bottom no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: beige;
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.news {
+  background-color: #ebe7dc;
+  padding: 50px 0 32px;
+}
+.text-p-bold {
+  font-weight: bolder;
+  color: rgb(89, 75, 59);
+}
+article {
+  width: 768px;
+  margin: 0 auto 32px;
+  padding: 6px 15px;
+  border-bottom: 1px solid gray;
+  color: rgb(89, 75, 59);
+}
+article:nth-child(even) {
+  background-color: #ffffff;
+}
+article a {
+  color: rgb(89, 75, 59);
+  text-decoration: none;
+}
+article a:hover {
+  color: brown;
+}
+article h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+}
+.nov::after {
+  content: " New";
+  font-style: italic;
+  color: red;
+}
+.article-meta {
+  color: rgb(89, 75, 59);
+  margin-bottom: 5px;
+}
+article img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+footer {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+footer .links {
+  margin-bottom: 50px;
+}
+.links:hover {
+  color: black;
+}
+footer .links > a:hover {
+  color: rgb(66, 68, 68);
+}
+footer .links > a {
+  color: rgb(66, 68, 68);
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.сopyright {
+  color: rgb(89, 75, 59);
+  font-family: "Times New Roman", Times, serif;
+}
+.сopyright:hover {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
