@@ -70,9 +70,6 @@ footer .links {
 .links:hover {
   color: black;
 }
-footer .links > a:hover {
-  color: rgb(66, 68, 68);
-}
 footer .links > a {
   color: rgb(66, 68, 68);
   padding: 0 25px;
@@ -81,6 +78,9 @@ footer .links > a {
   letter-spacing: 0.1rem;
   text-decoration: none;
   text-transform: uppercase;
+}
+footer .links > a:hover {
+  color: rgb(66, 68, 68);
 }
 .сopyright {
   color: rgb(89, 75, 59);

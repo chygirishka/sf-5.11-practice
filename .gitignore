@@ -9,11 +9,10 @@
 # Icon must end with two \r
 Icon
 
-
 # Thumbnails
 ._*
 
-# Ф файлы, которые могут оказаться в корне
+# Файлы, которые могут оказаться в корне
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -29,5 +28,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# iCloud generated files
+# iCloud временные, сгенерированные облаком 
 *.icloud
